@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp13.EmployeeEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Редактирование сотрудника" Height="550" Width="300">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="ФИО Сотрудника"></TextBlock>
+            <TextBox Name="FullNameTextBox" Margin="0,0,0,15" />
+            <TextBlock Text="Должность сотрудника"></TextBlock>
+            <TextBox Name="PositionTextBox" Margin="0,0,0,15" />
+            <TextBlock Text="Дата рождения"></TextBlock>
+            <DatePicker Name="DateOfBirthPicker" Margin="0,0,0,15" />
+            <TextBlock Text="Дата приема"></TextBlock>
+            <DatePicker Name="HireDatePicker" Margin="0,0,0,15" />
+            <TextBlock Text="Зарплата"></TextBlock>
+            <TextBox Name="SalaryTextBox" Margin="0,0,0,15" />
+            <TextBlock Text="Отдел"></TextBlock>
+            <TextBox Name="DepartmentTextBox" Margin="0,0,0,15" />
+            <TextBlock Text="Контакт"></TextBlock>
+            <TextBox Name="ContactTextBox" Margin="0,0,0,15" />
+            <TextBlock Text="Образование"></TextBlock>
+            <TextBox Name="EducationTextBox" Margin="0,0,0,15" />
+            <TextBlock Text="Семейное положение"></TextBlock>
+            <TextBox Name="MaritalStatusTextBox" Margin="0,0,0,15" />
+            <Button Content="Сохранить" Click="SaveButton_Click"/>
+            
+        </StackPanel>
+    </Grid>
+</Window>
